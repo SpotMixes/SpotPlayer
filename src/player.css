@@ -87,7 +87,6 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 1.5em;
     color: var(--secondary-text-color);
 }
 
@@ -116,12 +115,9 @@ body {
     align-items: center;
     justify-content: center;
     gap: 1em;
+    margin-top: 1em;
 }
 
-.progress-bar {
-    border: solid 1px red;
-    height: 5px;
-    border-radius: 10px;
+#wave {
     width: 30%;
-    background-color: #ccc4;
 }
